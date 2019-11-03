@@ -1,0 +1,36 @@
+[debug] [2019-11-03T11:14:01.906Z] ----------------------------------------------------------------------
+[debug] [2019-11-03T11:14:01.907Z] Command:       /usr/local/Cellar/node/12.4.0/bin/node /usr/local/bin/firebase serve
+[debug] [2019-11-03T11:14:01.907Z] CLI Version:   7.6.2
+[debug] [2019-11-03T11:14:01.907Z] Platform:      darwin
+[debug] [2019-11-03T11:14:01.907Z] Node Version:  v12.4.0
+[debug] [2019-11-03T11:14:01.908Z] Time:          Sun Nov 03 2019 20:14:01 GMT+0900 (日本標準時)
+[debug] [2019-11-03T11:14:01.908Z] ----------------------------------------------------------------------
+[debug] [2019-11-03T11:14:01.908Z] 
+[debug] [2019-11-03T11:14:01.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-11-03T11:14:01.915Z] > authorizing via signed-in user
+[debug] [2019-11-03T11:14:01.915Z] [iam] checking project ts-react-portfolio for permissions ["firebase.projects.get"]
+[debug] [2019-11-03T11:14:01.916Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/ts-react-portfolio:testIamPermissions  
+
+[debug] [2019-11-03T11:14:02.799Z] <<< HTTP RESPONSE 200
+[debug] [2019-11-03T11:14:02.801Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ts-react-portfolio  
+ 
+[debug] [2019-11-03T11:14:03.544Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Users/keppledev03/Workspace/ts-react-portfolio'...
+[info] 
+[debug] [2019-11-03T11:14:03.548Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/ts-react-portfolio/webApps/-/config  
+ 
+[warn] ⚠  Your requested "node" version "8" doesn't match your global version "12"
+[info] ✔  functions: Emulator started at http://localhost:5001
+[debug] [2019-11-03T11:14:04.842Z] <<< HTTP RESPONSE 200
+[info] i  functions: Watching "/Users/keppledev03/Workspace/ts-react-portfolio/functions" for Cloud Functions...
+[debug] [2019-11-03T11:14:04.862Z] [worker-~diagnostic~-55ec8a9e-befe-49e1-b0f3-2cc4a86a8932]: BUSY
+[info] i  hosting: Serving hosting files from: build
+[info] ✔  hosting: Local server: http://localhost:5000
+[debug] [2019-11-03T11:14:05.029Z] [runtime-status] Functions runtime initialized. {"cwd":"/Users/keppledev03/Workspace/ts-react-portfolio/functions","node_version":"12.4.0"}
+[debug] [2019-11-03T11:14:05.030Z] [runtime-status] Disabled runtime features: {"functions_config_helper":true,"network_filtering":true,"timeout":true,"memory_limiting":true,"admin_stubs":true} {}
+[debug] [2019-11-03T11:14:05.033Z] [runtime-status] Resolved module firebase-admin {"declared":true,"installed":true,"version":"8.7.0","resolution":"/Users/keppledev03/Workspace/ts-react-portfolio/functions/node_modules/firebase-admin/lib/index.js"}
+[debug] [2019-11-03T11:14:05.035Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/keppledev03/Workspace/ts-react-portfolio/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-03T11:14:05.035Z] [runtime-status] Resolved module firebase-functions {"declared":true,"installed":true,"version":"3.3.0","resolution":"/Users/keppledev03/Workspace/ts-react-portfolio/functions/node_modules/firebase-functions/lib/index.js"}
+[debug] [2019-11-03T11:14:05.089Z] [worker-~diagnostic~-55ec8a9e-befe-49e1-b0f3-2cc4a86a8932]: exited
+[debug] [2019-11-03T11:14:05.089Z] [worker-~diagnostic~-55ec8a9e-befe-49e1-b0f3-2cc4a86a8932]: FINISHED
