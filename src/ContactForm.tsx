@@ -1,4 +1,5 @@
 import * as React from "react";
+import styled from "styled-components";
 import * as firebase from 'firebase/app';
 import '@firebase/functions';
 import { config　} from '../src/config/firebase';
@@ -10,6 +11,10 @@ interface State {
   email?: string;
   contents?: string;
 }
+
+const StyledContactForm = styled.div`
+  background-color: blue;
+`
 
 class ContactForm extends React.Component<State> {
 
@@ -40,7 +45,7 @@ class ContactForm extends React.Component<State> {
 
   public render() {
     return (
-    <>
+    <StyledContactForm>
       <h2>お問い合わせフォーム</h2>
       <form onSubmit={this.handleSubmit}>
         <div>
@@ -77,7 +82,7 @@ class ContactForm extends React.Component<State> {
         <hr></hr>
         <button type="submit">送信</button>
       </form>
-    </>
+    </StyledContactForm>
     )
   }
 };
