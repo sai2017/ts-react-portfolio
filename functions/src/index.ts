@@ -29,7 +29,7 @@ ${data.contents}
 `;
 };
 
-exports.sendMail = functions.https.onCall((data) => {
+export const sendMail = functions.https.onCall((data) => {
   // メール設定
   const adminMail = {
     from: gmailEmail,

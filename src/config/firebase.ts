@@ -1,7 +1,7 @@
 import * as firebase from 'firebase/app';
 import 'firebase/auth'
 
-const config = {
+export const config = {
     apiKey: process.env.FIREBASE_APIKEY,
     authDomain: "ts-react-portfolio.firebaseapp.com",
     databaseURL: "https://ts-react-portfolio.firebaseio.com",
@@ -12,6 +12,6 @@ const config = {
     measurementId: process.env.MEASUREMENT_ID
 };
 
-firebase.initializeApp(config)
+// firebase.initializeApp(config)
 
 export default firebase
