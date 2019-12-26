@@ -5,7 +5,7 @@ class Top extends React.Component {
 
   public render() {
     return (
-      <Header />
+      <div></div>
     )
   }
 };
