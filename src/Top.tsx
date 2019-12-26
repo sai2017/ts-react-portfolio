@@ -1,13 +1,11 @@
 import * as React from "react";
+import Header from "./components/Header"
 
 class Top extends React.Component {
 
   public render() {
     return (
-      <div>
-      <h2>Home</h2>
-      <p>Welcome to ようこそ</p>
-    </div>
+      <Header />
     )
   }
 };
